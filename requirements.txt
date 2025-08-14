@@ -1,0 +1,49 @@
+# Enhanced Novia - AI Virtual Accountant Requirements
+# Core Flask dependencies
+Flask==2.3.3
+Flask-SocketIO==5.3.6
+python-socketio==5.9.0
+python-engineio==4.7.1
+Werkzeug==2.3.7
+
+# Data processing
+pandas==2.3.1
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# HTTP requests
+requests==2.31.0
+
+# Image processing and OCR
+opencv-python==4.8.1.78
+Pillow==10.4.0
+pytesseract==0.3.10
+numpy
+
+# PDF processing
+PyMuPDF==1.24.13
+fitz==0.0.1.dev2
+
+# File type detection
+python-magic==0.4.27
+# For Windows users, use python-magic-bin instead:
+# python-magic-bin==0.4.14
+
+# Date handling
+python-dateutil==2.8.2
+
+# Additional utilities
+uuid
+pybase64
+
+# Optional: For better PDF table extraction
+# tabula-py==2.8.2
+# camelot-py[cv]==0.11.0
+
+# Development and testing
+pytest==7.4.2
+pytest-flask==1.2.0
+
+# Production deployment (optional)
+gunicorn==21.2.0
+redis==5.0.0  # For session storage in production
